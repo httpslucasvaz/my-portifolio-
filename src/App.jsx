@@ -1,16 +1,13 @@
+import { Header } from "./components/header/Header";
+import './style/App.css'
 
 
 function App() {
-  
-
   return (
-    <>
-      <h1>oi</h1>
-      <div>
-        
-      </div>
-    </>
-  )
+    <div id="wrapper">
+    <Header />
+    </div>
+  );
 }
 
-export default App
+export default App;
