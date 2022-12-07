@@ -26,13 +26,5 @@ export function Header() {
   );
 }
 
-{
-  /* <button className="social">
-        <span className="current-text">linkedin ds</span>
-        <span className="text" aria-hidden="true">linkedin ds</span>
-          </button>
-          <button className="social">
-          <span className="current-text">github ds</span>
-          <span className="text" aria-hidden="true">github ds</span>
-          </button> */
-}
+
+

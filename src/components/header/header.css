@@ -1,24 +1,10 @@
 #container {
   width: 100%;
-  min-height: 100vh;
+  height: auto;
   display: flex;
   justify-content: center;
 
-  background-image: linear-gradient(
-    to right top,
-    #2a0445,
-    #330652,
-    #3c085e,
-    #450a6c,
-    #4e0d79,
-    #491476,
-    #441873,
-    #401c70,
-    #301d59,
-    #241c42,
-    #1b182b,
-    #131313
-  );
+  
 }
 
 .header {
