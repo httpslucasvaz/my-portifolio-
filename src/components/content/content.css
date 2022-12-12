@@ -121,6 +121,17 @@
   }
  }
  
+ @media (max-width: 500px) {
+  .illustration {
+    width: 75%
+  }
+ }
+
+ @media (max-width: 1023px) and (min-width: 645px) {
+  .illustration {
+    width: 40%
+  }
+ }
 
 @-webkit-keyframes illustration {
   0%,
