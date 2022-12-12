@@ -25,7 +25,23 @@ body {
     #131313
   );
   color: #e3e3e3;
+  
 }
 
+.bg-astrounata {
+  width: 20rem;
+}
 
+.bg-astrounata {
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
+  padding: 1rem;
+}
 
+.bg-space {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 2rem;
+}

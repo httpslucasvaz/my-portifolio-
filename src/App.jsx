@@ -9,6 +9,7 @@ function App() {
   return (
     <>
     <Header />
+    <img src='/astronauta.svg' alt='' className="bg-astrounata"/>
     <Content />
     <Footer />
     </>
