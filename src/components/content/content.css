@@ -103,6 +103,23 @@
  .cssbuttons-io-button:active .icon {
   transform: scale(0.95);
  }
+
+ @media (max-width: 1026px) {
+  .container {
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 2.5rem;
+  }
+
+  .greet {
+    font-size: 2.5rem
+  }
+
+  .text-body {
+    font-size: 2rem;
+  }
+ }
  
 
 @-webkit-keyframes illustration {

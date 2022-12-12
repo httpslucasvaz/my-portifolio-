@@ -28,20 +28,17 @@ body {
   
 }
 
-.bg-astrounata {
-  width: 20rem;
+@media (max-width: 1431px) {
+  .bg-astrounata {
+    display: none;
+  }
 }
 
 .bg-astrounata {
+  width: 15rem;
   position: fixed;
   bottom: 2rem;
   left: 2rem;
   padding: 1rem;
 }
 
-.bg-space {
-  position: fixed;
-  top: 0;
-  right: 0;
-  padding: 2rem;
-}
