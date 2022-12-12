@@ -11,9 +11,9 @@ export function Content() {
             <span className="greet">HELLO, 👋 </span>
             <span className="text-body">EU SOU O CARA QUE CRIA SITES!</span>
 
-            <button class="cssbuttons-io-button">
+            <button className="cssbuttons-io-button">
                MEU CURRÍCULO
-              <div class="icon">
+              <div className="icon">
               <svg
   xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 24 24"
@@ -21,10 +21,10 @@ export function Content() {
   width="24"
   fill="none"
   stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
-  class="feather feather-download"
+  strokeWidth="2"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  className="feather feather-download"
 >
   <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
   <polyline points="7 10 12 15 17 10"></polyline>

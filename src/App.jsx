@@ -1,14 +1,17 @@
 import { Content } from "./components/content/content";
+import { Footer } from "./components/footer/footer";
 import { Header } from "./components/header/Header";
+
 import './style/App.css'
 
 
 function App() {
   return (
-    <div id="wrapper">
+    <>
     <Header />
     <Content />
-    </div>
+    <Footer />
+    </>
   );
 }
 

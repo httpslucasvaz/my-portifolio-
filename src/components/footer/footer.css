@@ -1,0 +1,28 @@
+.copyright {
+    max-width: 1080px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+      
+}
+
+.powered-by {
+    display: flex;
+}
+
+.powered-by-logo {
+    margin-left: 5px;
+    width: 24px;
+    height: 24px;
+}
+
+.container-footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
