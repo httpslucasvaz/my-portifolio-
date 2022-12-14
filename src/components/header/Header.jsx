@@ -12,12 +12,12 @@ export function Header() {
         </div>
         <div className="logo-container">
           <button className="cta">
-            <span className="hover-underline-animation"> linkedin </span>
+            <span className="hover-underline-animation"><a href="https://www.linkedin.com/in/lucasvazz/" target='_blank'> linkedin </a> </span>
             <SiLinkedin className="icon" />
           </button>
 
           <button className="cta">
-            <span className="hover-underline-animation"> github </span>
+            <span className="hover-underline-animation"><a href="https://github.com/httpslucasvaz" target='_blank'> github</a> </span>
             <SiGithub className="icon" />
           </button>
         </div>
