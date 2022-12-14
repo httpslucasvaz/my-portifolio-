@@ -17,6 +17,10 @@
   justify-content: space-between;
 }
 
+.color {
+  color: #00B7D3
+}
+
 @media (max-width: 650px) {
 
   .header {
