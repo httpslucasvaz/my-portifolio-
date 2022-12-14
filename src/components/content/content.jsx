@@ -11,6 +11,7 @@ export function Content() {
             <span className="greet">HELLO, 👋 </span>
             <span className="text-body">EU SOU O CARA QUE CRIA SITES!</span>
 
+            <a href="profile.pdf" download>
             <button className="cssbuttons-io-button">
               MEU CURRÍCULO
               <div className="icon">
@@ -32,6 +33,7 @@ export function Content() {
                 </svg>
               </div>
             </button>
+            </a>
           </div>
         </div>
       </div>
