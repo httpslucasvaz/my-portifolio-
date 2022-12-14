@@ -8,7 +8,7 @@
 body {
   font-family: "Dosis", sans-serif;
   font-size: 1rem;
-  min-height: 100vh;
+  height: 100vh;
   background-image: linear-gradient(
     to right top,
     #2a0445,
@@ -44,6 +44,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #e3e3e3;
 }
 
 a:active, :visited {

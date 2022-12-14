@@ -1,10 +1,9 @@
 import "./footer.css";
 
+
 export function Footer() {
   const date = new Date();
   const year = date.getFullYear();
-
-  console.log(year);
   return (
     <footer className='container-footer'>
         <div className='copyright'>

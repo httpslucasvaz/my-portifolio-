@@ -125,6 +125,14 @@
   .illustration {
     width: 75%
   }
+
+  .greet {
+    font-size: 1.8rem
+  }
+
+  .text-body {
+    font-size: 1.5rem;
+  }
  }
 
  @media (max-width: 1023px) and (min-width: 645px) {

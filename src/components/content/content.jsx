@@ -6,11 +6,11 @@ import { useEffect } from "react";
 
 export function Content() {
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 800 });
   }, []);
 
   return (
-    <main className="wrapper">
+    <main className="wrapper" data-aos="zoom-in">
       <div className="container">
         <img className="illustration" src="/illustration.svg"  />
 
@@ -18,19 +18,17 @@ export function Content() {
           <div className="text">
             <div
               className="greet"
-              data-aos="fade-left"
             >
               HELLO, 👋
             </div>
             <span
               className="text-body"
-              data-aos="fade-left"
             >
               EU SOU O CARA QUE CRIA SITES!
             </span>
 
             <a href="profile.pdf" download>
-              <button className="cssbuttons-io-button" data-aos="zoom-out-left">
+              <button className="cssbuttons-io-button" >
                 MEU CURRÍCULO
                 <div className="icon">
                   <svg
